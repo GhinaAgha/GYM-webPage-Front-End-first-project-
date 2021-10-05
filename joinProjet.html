@@ -1,0 +1,124 @@
+<!doctype html>
+<head>
+<title>join us</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="joinProjet.css"/>
+</head>
+<body>
+  <div id="balle"></div>
+<div id="script">
+ <div class="join">
+  <h1> Join us for <span class="s1">Gym</span><span class="s2">Vast</span></h1>
+
+
+ </div>
+
+ <div id="join">
+
+ <div class="join1">
+ <h1> JOIN<span> US</span></h1>
+ <form>
+ <div class="f1">
+ <label>Name:</label>
+ <input type="text" name="name" id="name">
+ <label>Username:</label>
+ <input type="text" name="username" id="usernmae">
+ </div>
+ <div class="f1">
+ 
+ <label>email:</label>
+ <input type="email" name="email" id="email">
+ <label> Telephone:</label>
+ <input type="tel" name="tel"id="tel">
+ </div>
+  </div>
+  <div class="f">
+  <div class="f12">
+  
+
+ <label class="Country">Country</label>
+ <select class="se1" name="se">
+   <optgroup label="Lebanon">
+ <option value="Lebanon">Danniyeh</option>
+  <option value="Canada">Tripoli</option>
+ <option value="USA">Akkar</option>
+ </optgroup>
+ </select>
+ 
+  <label class="Week Days">Week&nbsp; Days</label>
+ <select class="se1"name="se">
+ <optgroup label="Week Days">
+ <option value="Monday">Monday</option>
+  <option value="Tuesday">Tuesday</option>
+ <option value="WEDNESDAY">WEDNESDAY</option>
+ <option value="THURSDAY">THURSDAY</option>
+   <option value="SATURDAY">SATURDAY</option>
+ <option value="SUNDAY">SUNDAY</option>
+ </optgroup>
+ </select>
+ 
+ 
+ 
+ 
+ 
+ </div>
+ <div class="f12">
+ <div class="ff">
+
+ <label class="temps">Temps</label>
+ <select class="se1"name="se">
+   <optgroup label="temps">
+ <option value="12pm-2pm">12pm-2pm</option>
+  <option value="10am-12pm">10am-12pm</option>
+ <option value="2pm-4pm">2pm-4pm</option>
+ </optgroup>
+ </select>
+ 
+
+ <label class="Class Name">Class&nbsp;Name</label>
+ <select class="se1"name="se">
+  <optgroup label="Class Name">
+ <option value="Waist Pop Funk">Waist Pop Funk</option>
+  <option value="Surfset Classic">Surfset Classic</option>
+ <option value="Real Ryder Inferno">Real Ryder Inferno</option>
+ <option value="Surfset Classic">Surfset Classic</option>
+  </optgroup>
+ </select>
+ 
+</div>
+ </div>
+</div>
+<input type="submit" value="JOIN">
+
+ </form>
+
+ </div>
+ <div id="messages"></div>
+ 
+</div>
+
+
+
+
+
+
+
+
+
+<script src="jquery.js"></script>
+<script>
+  $(function() {
+    function bis() {
+      $('#balle').animate({left: '+=590'}, 'slow')
+                 .animate({top:  '+=400'}, 'slow')
+                 .animate({left: '-=590'}, 'slow')
+                 .animate({top:  '-=400'}, 'slow', bis);
+    };
+    bis();
+  });
+</script>
+
+<script src="joinJS.js"></script>
+
+</body>
+</html>

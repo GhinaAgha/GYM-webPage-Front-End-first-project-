@@ -1,0 +1,57 @@
+
+
+
+
+body{
+margin: 0;
+padding:0;
+background-image:url("gym1.jpg");
+background-attachment:fixed;
+background-size:cover;
+
+}
+nav img{
+	width:90px;
+	
+}
+nav{
+	width:100%;
+	overflow:auto;
+	
+	position:absolute;
+}
+
+ul{
+	padding:0;
+	margin:20px 0 0 250px;
+	list-style:none;
+	
+}
+
+
+
+li{
+	float :left;
+}
+
+
+	
+
+
+li a{
+	width:150px;
+	display:block;
+	padding:20px 15px;
+	text-decoration:none;
+	font-family:arial;
+	color:white;
+	text-align:center;
+}
+li a:hover{
+	background:#111;
+	text-transform:uppercase;
+}
+
+	
+	
+	

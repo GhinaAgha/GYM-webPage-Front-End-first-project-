@@ -1,0 +1,151 @@
+
+body{
+	background-color:grey;
+}
+ *:not(.slick-list), *:not(.slick-track)  {
+  transition: 0.3s;
+}
+.left{
+	display:inline-block;
+	position:absolute;
+	left:60px;
+	top:10px;
+	margin-bottom:10px;
+	
+	
+	}
+.left div{
+text-align:center;
+font-size:25px;
+line-height:20px;
+color:#fff;
+margin-left:190px;
+}
+.left div SPAN{
+	color:green;
+	font-style:italic;
+	font-weight:bold;
+	padding:0;
+	
+}
+.left img{
+    margin-left:200px;
+	width:100px;
+	height:80px;
+	
+	/*filter:invert(100%);*/
+	
+}
+
+h1{
+	margin-top:150px;
+	text-align:center;
+	color:green;
+}
+.info1 img{
+	margin-top:30px;
+	height:50%;
+	width:50%;
+	margin-left:400px;
+}
+.info1 .p{
+	margin-left:400px;
+	margin-right:400px;
+	color:#fff;
+}
+.info1 h2{
+	margin-top:30px;
+	margin-bottom:-25px;
+text-align:center;
+}
+.info1 h3{
+	text-align:center;
+}
+.icon div{
+text-align:center;
+font-size:25px;
+line-height:20px;
+color:#fff;
+margin-left:10px;
+}
+
+.icon div SPAN{
+	color:green;
+	font-style:italic;
+	font-weight:bold;
+	padding:0;
+	
+}
+
+
+
+
+
+#clients{
+	background-color:black;
+	
+}
+#clients h1{
+	text-align:center;
+	color:white;
+	margin-top:100px;
+	padding-top:80px;
+}
+#clients .client-box h2 , h4 ,p {
+	color:#fff;
+}
+#clients .client-box{
+	display:flex;
+	flex-wrap:wrap;
+}
+#clients .box{
+	width:30%;
+	margin:50px;
+}
+#clients .box p{
+	width:400px;
+	font-size:20px;
+	margin-left:300px;
+}
+#clients .box h4{
+		margin-left:500px;
+}
+#clients .box h2{
+	margin-left:500px;
+}
+.by{
+	margin-top:400px;
+   margin-left:300px;
+   margin-bottom:100px;
+   font-size:30px;
+   font-weight:bold;
+}
+button{
+	  cursor: pointer;
+  background: green;
+  color: #fff;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1.25rem 3rem;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration:none;
+  
+  letter-spacing: 2px;
+}
+button:hover{
+	background-color:red;
+}
+.button{
+	margin-left:800px;
+}
+.button p{
+	color:#fff;
+	text-decoration:none;
+	margin:0 auto;
+	padding:0 auto;
+}
+
+
+

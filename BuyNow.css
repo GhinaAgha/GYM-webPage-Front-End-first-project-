@@ -1,0 +1,61 @@
+.back{
+	background:url("young.jpg");
+	height:380px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:-8px;
+}
+
+
+table td, th{
+	border:none;
+	font-family: "Barlow", sans-serif;
+}
+table{
+	margin-top:70px;
+	  border-spacing: 40px  ;
+	  width:700px;
+	  
+}
+table tr th{
+	font-size:18px;
+}
+.div{
+	display:flex;
+
+}
+
+ul{
+	
+	margin-left:70px;
+}
+ul li{
+	padding-bottom:25px;
+}
+.about h3{
+	margin-top:50px;
+	font-size:30px;
+	font-family: "Barlow", sans-serif;
+margin-left:200px;
+}
+.div img{
+	width:300px;
+	height:500px;
+	margin-top:20px;
+}
+#number{
+	width:30px;
+}
+#d1{
+	margin-left:700px;
+	margin-top:-50px;
+}
+form input[type=submit]{
+	margin-left:730px;
+	margin-top:20px;
+	padding:10px;
+	background:green;
+	margin-bottom:60px;
+	
+}
+}
